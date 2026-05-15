@@ -149,6 +149,8 @@ ggpredict(
 
 **At 900 m, the predicted temperature is 19.8 °C (95% CI: [19.6, 20.0]).**
 
+*Adding a result for model's predicted temp. at 900m*
+
 ### Visualizing model predictions
 
 ```{r}
@@ -178,6 +180,8 @@ ggplot(data = sonadora_sum,
        y = "Mean temperature (\U00B0 C)") +
   theme_bw()
 ```
+
+*creating a model that also represents confidence interval in ribbon*
 
 ### Creating a table with model coefficients, 95% confidence intervals, and more
 
