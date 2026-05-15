@@ -168,7 +168,8 @@ ggplot(data = sonadora_sum,
               aes(x = x,
                   y = predicted,
                   ymin = conf.low,
-                  ymax = conf.high),
+                  ymax = conf.high,
+                  color = "red"),
               alpha = 0.2) +
   # model prediction line
   # uses model prediction data frame
