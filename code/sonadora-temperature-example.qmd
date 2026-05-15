@@ -84,9 +84,11 @@ ggplot(data = sonadora_sum,
        aes(x = elevation_m,
            y = mean_temp_c)) +
   # first layer: points representing temperature at each elevation
-  geom_point()
+  geom_point(color = "blue")
 
 ```
+
+*Generated scatterplot for relationship between elevation and mean temp.*
 
 ## d. Temperature model
 
@@ -100,6 +102,8 @@ temperature_model <- lm(
   )
 
 ```
+
+*creating predictive model for mean temp. at elevation*
 
 ### Diagnostics
 
