@@ -72,6 +72,8 @@ sonadora_sum <- sonadora_clean |>
   arrange(elevation_m)
 ```
 
+*Creating new object for clean data, and then summarizing mean temp.*
+
 ## c. Exploratory data visualization
 
 ```{r}
