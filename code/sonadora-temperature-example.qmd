@@ -191,4 +191,6 @@ ggplot(data = sonadora_sum,
 as_flextable(temperature_model)
 ```
 
+*Creating a table to summarize predictive model for temp. at elevation* 
+
 **END OF SONADORA EXAMPLE**
