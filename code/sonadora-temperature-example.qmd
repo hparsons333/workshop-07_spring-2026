@@ -127,6 +127,8 @@ summary(temperature_model)
 
 **For each meter of elevation gain, you would expect a decrease in temperature equivalent to 0.01 ± 0.0003 (SE) °C.**
 
+*^ This is a based off of the predictive model*
+
 ### Generating predictions
 
 ```{r}
